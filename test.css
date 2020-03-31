@@ -1,0 +1,113 @@
+body {
+	background-image: url("Galaxie.jpg");
+	color: white;
+}
+
+.images_haut {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+    margin: 3.5em 0em;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+    margin: 3.5em 0em;
+}
+
+h1 {
+	font-weight: "bold";
+	color: red;
+	font-size: 5em;
+}
+
+h2 {
+	color: red;
+	font-size: 4em;
+}
+
+p {
+	font-size: 3em;
+    margin: 2em 2.5em;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: #303030;
+	position: fixed;
+	top: 0; 
+	width: 100%; 
+	height: 4em; 
+}
+
+.nav a {
+	float: left;
+	display: block;
+	font-size: 2em;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background: #d0d0d0;
+	color: black;
+}
+
+.grands_points {
+	text-align: center;
+}
+
+
+	
+
+@media only screen and (min-width: 1200px) {
+h1 {
+	font-weight: "bold";
+	color: red;
+	font-size: 3.5em;
+}
+
+h2 {
+	color: red;
+	font-size: 2.5em;
+}
+
+p {
+	font-size: 1.5em;
+    margin: 2em 2.5em;
+}
+.images_haut {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+    margin: 3.5em 0em;
+}
+
+.images {
+    margin: 3.5em 30em;
+	width:550px;
+	height:450px;
+}
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
